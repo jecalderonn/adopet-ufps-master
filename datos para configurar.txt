@@ -1,0 +1,21 @@
+configuracion de conexion
+
+**************************************
+back\facade\GlobalController.php
+
+  * Para su comodidad, defina aquí el gestor de conexión predilecto para su proyecto
+   */
+    define("DEFAULT_GESTOR", FactoryDao::$MYSQL_FACTORY);
+
+   * Para su comodidad, defina aquí el nombre de base de datos predilecto para su proyecto
+   */    
+    define("DEFAULT_DBNAME", "mascotas");
+
+*************************************************
+
+back\dao\properties\Properties.ini
+
+[mascotas]
+host=localhost
+username=root
+password=
